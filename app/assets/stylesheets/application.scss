@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+
+.navbar {
+  background-color: #FDF6EA !important;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+h1 {
+  color: greenyellow;
+}
